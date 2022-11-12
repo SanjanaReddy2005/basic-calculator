@@ -39,14 +39,14 @@ int main(){
     }
      float t=x;
         float sin = x; 
-        for (int n=3;n<=10;n=n+2){
+        for (int n=3;n<=20;n=n+2){
         t = t*x*x*(-1);
         sin +=(t/factorial(n));
         }
         float a=1;
         float cos = 1;
         
-        for(int n=2;n<=10;n=n+2){
+        for(int n=2;n<=20;n=n+2){
         a = a*x*x*(-1);
         cos+=(a/factorial(n));
         }
