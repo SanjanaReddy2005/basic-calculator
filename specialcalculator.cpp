@@ -51,7 +51,7 @@ int main(){
         cos+=(a/factorial(n));
         }
         float tan;
-        tan = x+ (1/3*x*x*x) + (2/5*x*x*x*x*x) +(17/315*x*x*x*x*x*x*x);
+        tan = x+ (1/3*x*x*x) + (2/5*x*x*x*x*x) +(17/315*x*x*x*x*x*x*x)+(62/2835*x*x*x*x*x*x*x*x*x);
     switch (n){
         case 1:
         cout << add(x,y);
